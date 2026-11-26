@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Office Artifacts: The One-Line Placard Contest — make.fun entry.
+"""Office Artifacts: The One-Line Placard Contest.
 
 Writes one museum placard line for an ordinary office object, treated
-as an ancient artifact, to /output/entry.txt. Gate: UTF-8 text of 1 to
-180 characters, not only whitespace. Deterministic: same bytes on every
-run.
+as an ancient artifact, to /output/entry.txt. Deterministic: the same
+entry on every run.
 """
-
 import os
 
 ENTRY = (
